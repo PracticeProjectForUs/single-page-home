@@ -5,7 +5,7 @@ services:
         context: ./single-page/
         dockerfile: Dockerfile
       ports:
-        - "3000:3000"
+        - "3005:3000"
       volumes:
         - ./single-page:/app
         # - ${HOME}/.vscode-server-single-page:/home/node/.vscode-server
