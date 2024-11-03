@@ -1,6 +1,7 @@
 'use client';
 import { DownOutlined, SmileOutlined } from '@ant-design/icons';
 import { Dropdown, Space } from 'antd';
+import { Popover, Button } from 'antd';
 
 interface MenuItem {
   key: string;
@@ -33,13 +34,36 @@ export default function NavBar() {
           <Dropdown menu={{ items }}>
             <a onClick={(e) => e.preventDefault()}>
               <Space>
-                Hover me
+                More
                 <DownOutlined />
               </Space>
             </a>
           </Dropdown>
         </div>
+
+        <div>
+          <MoreProduct />
+        </div>
       </ul>
     </nav>
   );
+}
+
+
+
+function MoreProduct() {
+  const content = (
+    <div>
+      <p>Content</p>
+      <p>Content</p>
+    </div>
+  );
+
+  return (
+    <Space wrap>
+      <Popover content={content} title="Title" trigger="hover">
+        <Button>Hover me</Button>
+      </Popover>
+    </Space>
+  )
 }
