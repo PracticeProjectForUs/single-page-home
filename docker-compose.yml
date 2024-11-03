@@ -1,0 +1,21 @@
+services:
+    frontend-singlepage-home:
+      container_name: "frontend-singlepage-home"
+      build:
+        context: ./single-page/
+        dockerfile: Dockerfile
+      ports:
+        - "3000:3000"
+      volumes:
+        - ./single-page:/app
+        # - ${HOME}/.vscode-server-single-page:/home/node/.vscode-server
+        - ${HOME}/.vscode-server-frontend-singlepage-home:/home/node/.vscode-server
+      command: npm run dev
+      networks:
+        - main
+networks:
+  main:
+    driver: bridge
+
+volumes:
+  postgres-db:
