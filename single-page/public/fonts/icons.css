@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.eot?3581163a2870d358e8d67742490a4c12#iefix") format("embedded-opentype"),
+url("./icons.woff2?3581163a2870d358e8d67742490a4c12") format("woff2"),
+url("./icons.woff?3581163a2870d358e8d67742490a4c12") format("woff");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tags:before {
+    content: "\f101";
+}
+.icon-star:before {
+    content: "\f102";
+}
+.icon-star-thick:before {
+    content: "\f103";
+}
+.icon-shield:before {
+    content: "\f104";
+}
+.icon-shield-check:before {
+    content: "\f105";
+}
+.icon-setting:before {
+    content: "\f106";
+}
+.icon-server:before {
+    content: "\f107";
+}
+.icon-search:before {
+    content: "\f108";
+}
+.icon-rectangle-vertical:before {
+    content: "\f109";
+}
+.icon-pie-chart:before {
+    content: "\f10a";
+}
+.icon-pencil:before {
+    content: "\f10b";
+}
+.icon-infomation:before {
+    content: "\f10c";
+}
+.icon-info:before {
+    content: "\f10d";
+}
+.icon-import:before {
+    content: "\f10e";
+}
+.icon-grid:before {
+    content: "\f10f";
+}
+.icon-global:before {
+    content: "\f110";
+}
+.icon-filter:before {
+    content: "\f111";
+}
+.icon-export:before {
+    content: "\f112";
+}
+.icon-exit:before {
+    content: "\f113";
+}
+.icon-error:before {
+    content: "\f114";
+}
+.icon-document:before {
+    content: "\f115";
+}
+.icon-database:before {
+    content: "\f116";
+}
+.icon-contact:before {
+    content: "\f117";
+}
+.icon-columns:before {
+    content: "\f118";
+}
+.icon-circle:before {
+    content: "\f119";
+}
+.icon-circle-check:before {
+    content: "\f11a";
+}
+.icon-chevron-right:before {
+    content: "\f11b";
+}
+.icon-chevron-left:before {
+    content: "\f11c";
+}
+.icon-chevron-down:before {
+    content: "\f11d";
+}
+.icon-arrow-right:before {
+    content: "\f11e";
+}
+.icon-arrow-left:before {
+    content: "\f11f";
+}
