@@ -8,9 +8,9 @@ WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm install  # หรือใช้ npm ci หากมี package-lock.json
 
-RUN npm install next
 
 COPY . .
+RUN npm install next
 RUN npm run build
 
 RUN npm install -g fantasticon
