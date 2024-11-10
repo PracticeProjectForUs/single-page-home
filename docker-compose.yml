@@ -8,8 +8,8 @@ services:
         - "3005:3000"
       volumes:
         - ./single-page:/app
-        # - ${HOME}/.vscode-server-single-page:/home/node/.vscode-server
         - ${HOME}/.vscode-server-frontend-singlepage-home:/home/node/.vscode-server
+
       command: npm run dev
       networks:
         - main
