@@ -1,12 +1,11 @@
 # Use Node.js 18 with Alpine
-FROM node:18-alpine AS build
+FROM node:22 AS build
 
-RUN apk add --no-cache libc6-compat
 
 WORKDIR /app
 
 COPY package.json package-lock.json ./
-RUN npm install  # หรือใช้ npm ci หากมี package-lock.json
+RUN npm install
 
 
 COPY . .
@@ -15,7 +14,7 @@ RUN npm run build
 
 RUN npm install -g fantasticon
 
-FROM node:18-alpine AS production
+FROM node:22 AS production
 
 WORKDIR /app
 
