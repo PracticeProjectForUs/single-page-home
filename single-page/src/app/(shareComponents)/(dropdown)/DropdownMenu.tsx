@@ -8,18 +8,20 @@ export type MenuItem = {
   label: JSX.Element;
   icon?: JSX.Element;
   disabled?: boolean;
+  title?: string;
 };
 
 interface DropdownMenuProps {
   items: MenuItem[];
+  title: string;
 }
 
-export default function DropdownMenu({ items }: DropdownMenuProps) {
+export default function DropdownMenu({ items, title }: DropdownMenuProps) {
   return (
     <Dropdown menu={{ items }}>
       <a onClick={(e) => e.preventDefault()}>
         <Space>
-          More
+          {title}
           <DownOutlined />
         </Space>
       </a>

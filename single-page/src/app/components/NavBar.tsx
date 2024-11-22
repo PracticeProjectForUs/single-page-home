@@ -54,6 +54,8 @@ interface MenuItemDropdown {
   icon?: JSX.Element;
   disabled?: boolean;
 }
+
+
 function DropdownMenuList(){
   const items: MenuItemDropdown[] = [
     {
@@ -71,12 +73,12 @@ function DropdownMenuList(){
           2nd menu item (disabled)
         </a>
       ),
-    }
+    },
   ];
 
   return(
     <div className='hover:cursor-pointer'>
-      <DropdownMenu items={items} />
+      <DropdownMenu items={items} title="More" />
     </div>
   )
 }
