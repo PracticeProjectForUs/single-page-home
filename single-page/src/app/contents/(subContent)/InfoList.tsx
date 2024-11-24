@@ -20,9 +20,9 @@ export default function InfoList() {
         },
     ]
     return (
-        <div className="flex flex-row p-4 bg-white rounded-lg shadow-md h-full">
+        <div className="flex flex-row py-4 px-8 bg-white rounded-lg shadow-md h-full w-3/5">
             {items.map((item) => (
-                <div key={item.id} className="w-72 flex flex-row items-center">
+                <div key={item.id} className="w-1/3 flex flex-row items-center">
                     <i className={`flex ${item.iconClass} text-[64px] items-center justify-center`} />
                     <div className="flex flex-col px-4">
                         <p className="text-xl">{item.header}</p>

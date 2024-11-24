@@ -1,7 +1,9 @@
 import SearhBar from "../components/SearhBar";
 import Backgroud from "../components/backgroud";
+import ProjectSection from "./(subContent)/projectSection";
 import PromotionBox from "../components/promotionBox";
-import InfoList from "./InfoList";
+import InfoList from "./(subContent)/InfoList";
+import LabelFooter from "../components/labelFooter";
 
 export default function Body() {
     return (
@@ -17,8 +19,14 @@ export default function Body() {
                 </div>
             </div>
             {/* Body */}
-            <div className="flex justify-center -mt-16">
+            <div className="flex justify-center -mt-16 w-full">
                 <PromotionBox/>
+            </div>
+            <div className="flex justify-center mt-16 w-full">
+                <ProjectSection/>
+            </div>
+            <div className=" mt-16 w-full">
+                <LabelFooter/>
             </div>
         </div>
     )

@@ -42,7 +42,7 @@ export default function PromotionBox() {
     ];
 
     return (
-        <div className="flex flex-row gap-4 justify-center w-[1005px] h-[450px]">
+        <div className="flex flex-row gap-4 justify-center w-3/5 h-[450px]">
             <div className="flex flex-col gap-4 w-2/5">
                 <BoxDetail {...items[0]} />
                 <BoxDetail {...items[1]} />
