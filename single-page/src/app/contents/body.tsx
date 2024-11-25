@@ -4,6 +4,7 @@ import ProjectSection from "./(subContent)/projectSection";
 import PromotionBox from "../components/promotionBox";
 import InfoList from "./(subContent)/InfoList";
 import LabelFooter from "../components/labelFooter";
+import RenovateSection from "./(subContent)/renovateSection";
 
 export default function Body() {
     return (
@@ -27,6 +28,9 @@ export default function Body() {
             </div>
             <div className=" mt-16 w-full">
                 <LabelFooter/>
+            </div>
+            <div className="flex justify-center mt-16 w-full">
+                <RenovateSection/>
             </div>
         </div>
     )
