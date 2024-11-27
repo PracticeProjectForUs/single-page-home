@@ -9,7 +9,12 @@ export default function NavBar() {
 
   return (
     <nav className='flex h-16 items-center'>
-      <div className='w-1/6'>Logo</div>
+      <div className='flex justify-center w-1/12'>
+        <img 
+          src="/images/logo/v-1.png" 
+          alt="logo" 
+          className="w-[50px]" />
+      </div>
       <ul className="flex w-4/6 gap-8">
          <li><a href="#">Model</a></li>
          <li><a href="#">Works and opinions</a></li>
@@ -62,7 +67,7 @@ function DropdownMenuList(){
       key: '1',
       label: (
         <a target="_blank" rel="noopener noreferrer" href="https://www.antgroup.com">
-          1st menu item
+          Option 1
         </a>
       ),
     },
@@ -70,7 +75,7 @@ function DropdownMenuList(){
       key: '2',
       label: (
         <a target="_blank" rel="noopener noreferrer" href="https://www.aliyun.com">
-          2nd menu item (disabled)
+          Option 2
         </a>
       ),
     },

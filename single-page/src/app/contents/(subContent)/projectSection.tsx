@@ -20,7 +20,7 @@ export default function ProjectSection() {
             path: "/images/new-proj/new_project1.png",
             alt: "new_project1",
             title: "Europe Street beat",
-            description: "www.instagram.com",
+            description: "www.pexels.com",
         },
         {
             key: "2",
@@ -28,7 +28,7 @@ export default function ProjectSection() {
             path: "/images/new-proj/new_project2.png",
             alt: "new_project2",
             title: "Europe Street beat",
-            description: "www.instagram.com",
+            description: "www.pexels.com",
         },
         {
             key: "3",
@@ -36,7 +36,7 @@ export default function ProjectSection() {
             path: "/images/new-proj/new_project3.png",
             alt: "new_project3",
             title: "Europe Street beat",
-            description: "www.instagram.com",
+            description: "www.pexels.com",
         },
         {
             key: "4",
@@ -44,7 +44,7 @@ export default function ProjectSection() {
             path: "/images/new-proj/new_project4.png",
             alt: "new_project4",
             title: "Europe Street beat",
-            description: "www.instagram.com",
+            description: "www.pexels.com",
         },
         {
             key: "5",
@@ -52,7 +52,7 @@ export default function ProjectSection() {
             path: "/images/new-proj/new_project5.png",
             alt: "new_project5",
             title: "Europe Street beat",
-            description: "www.instagram.com",
+            description: "www.pexels.com",
         },
         {
             key: "6",
@@ -60,7 +60,7 @@ export default function ProjectSection() {
             path: "/images/new-proj/new_project6.png",
             alt: "new_project6",
             title: "Europe Street beat",
-            description: "www.instagram.com",
+            description: "www.pexels.com",
         },
         {
             key: "7",
@@ -68,7 +68,7 @@ export default function ProjectSection() {
             path: "/images/new-proj/new_project7.png",
             alt: "new_project7",
             title: "Europe Street beat",
-            description: "www.instagram.com",
+            description: "www.pexels.com",
         },
         {
             key: "8",
@@ -76,7 +76,7 @@ export default function ProjectSection() {
             path: "/images/new-proj/new_project8.png",
             alt: "new_project8",
             title: "Europe Street beat",
-            description: "www.instagram.com",
+            description: "www.pexels.com",
         },
     ]
     return (

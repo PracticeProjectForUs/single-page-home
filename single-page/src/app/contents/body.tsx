@@ -5,10 +5,12 @@ import PromotionBox from "../components/promotionBox";
 import InfoList from "./(subContent)/InfoList";
 import LabelFooter from "../components/labelFooter";
 import RenovateSection from "./(subContent)/renovateSection";
+import FloatButtonHold from "../components/floatButton";
+import Footer from "../components/Footer";
 
 export default function Body() {
     return (
-        <div>
+        <div className="">
             {/* Header */}
             <div className="relative w-full h-screen">
                 <Backgroud/>
@@ -32,6 +34,7 @@ export default function Body() {
             <div className="flex justify-center mt-16 w-full">
                 <RenovateSection/>
             </div>
+            <FloatButtonHold/>
         </div>
     )
 }
