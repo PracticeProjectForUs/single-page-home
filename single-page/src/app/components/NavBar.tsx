@@ -10,10 +10,12 @@ export default function NavBar() {
   return (
     <nav className='flex h-16 items-center'>
       <div className='flex justify-center w-1/12'>
-        <img 
-          src="/images/logo/v-1.png" 
-          alt="logo" 
-          className="w-[50px]" />
+        <a href="/">
+          <img 
+            src="/images/logo/v-1.png" 
+            alt="logo" 
+            className="w-[50px] hover:cursor-pointer" />
+        </a>
       </div>
       <ul className="flex w-4/6 gap-8">
          <li><a href="#">Model</a></li>
