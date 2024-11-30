@@ -12,7 +12,7 @@ COPY . .
 RUN npm install next
 RUN npm run build
 
-RUN npm install -g fantasticon
+# RUN npm install -g fantasticon
 
 FROM node:22 AS production
 
